@@ -23,9 +23,10 @@ public class HomePage {
 		
 	}
 	
-	public boolean verifyLogo() {
-		logo.isDisplayed();
-		return false;
+	public boolean logoDisplayed() {
+		boolean flag = logo.isDisplayed();
+		System.out.println("Is the logo displayed" + flag);
+		return flag;
 	}
 	
 

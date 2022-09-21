@@ -5,8 +5,8 @@
     <classes>
       <class name="Pages.HomePageTest">
         <methods>
+          <include name="logoTest"/>
           <include name="setUp"/>
-          <include name="clickUserIdFieldTest"/>
           <include name="treatUp"/>
         </methods>
       </class> <!-- Pages.HomePageTest -->
