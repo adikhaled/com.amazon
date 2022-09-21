@@ -15,6 +15,7 @@ public class BaseClass {
    	 System.setProperty("webdriver.chrome.driver","C:\\Users\\khale\\eclipse-workspace\\com.amazon\\driver\\chromedriver.exe");
    	driver = new ChromeDriver(); // This line will instantiate the webdriver and chromedriver will be used	
    	driver.get("https://www.amazon.com/");
+   	homePage = new HomePage(driver);
    	
 	}
 	
