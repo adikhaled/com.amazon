@@ -5,7 +5,7 @@
     <classes>
       <class name="Pages.HomePageTest">
         <methods>
-          <include name="logoTest"/>
+          <include name="newUserRegistrationButtonClickTest"/>
           <include name="setUp"/>
           <include name="treatUp"/>
         </methods>
